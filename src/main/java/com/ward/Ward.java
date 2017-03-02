@@ -14,7 +14,5 @@ public class Ward {
 
         String[] s = str.split(",0,");
         String[] s1 = s[0].split(",");
-
-        System.out.println("lat: "+s1[0] + "long: "+s1[1]);
     }
 }
