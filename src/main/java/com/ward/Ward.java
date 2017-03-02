@@ -16,7 +16,5 @@ public class Ward {
         String[] s1 = s[0].split(",");
 
         System.out.println("lat: "+s1[0] + "long: "+s1[1]);
-
-        Geometry geometry = new GeometryFactory().createMultiPolygon()
     }
 }
